@@ -88,7 +88,7 @@ information on a production server or application as to what caused the panic is
 ### User Facing
 
 In user-facing programs (programs like
-[Packer](http://github.com/mitchellh/packer) or
+[Packer](http://github.com/wtsi-hgi/packer) or
 [Docker](http://github.com/dotcloud/docker)), it is up to the user to
 report such panics. This is unreliable, at best, and it would be better if the
 program could have a way to automatically report panics. panicwrap provides

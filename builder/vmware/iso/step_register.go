@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/mitchellh/multistep"
-	vmwcommon "github.com/mitchellh/packer/builder/vmware/common"
-	"github.com/mitchellh/packer/packer"
+	vmwcommon "github.com/wtsi-hgi/packer/builder/vmware/common"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type StepRegister struct {

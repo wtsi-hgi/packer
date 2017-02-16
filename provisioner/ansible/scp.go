@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 const (

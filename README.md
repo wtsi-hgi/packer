@@ -5,14 +5,14 @@
 [![GoDoc][godoc-badge]][godoc]
 [![GoReportCard][report-badge]][report]
 
-[travis-badge]: https://travis-ci.org/mitchellh/packer.svg?branch=master
-[travis]: https://travis-ci.org/mitchellh/packer
-[appveyor-badge]: https://ci.appveyor.com/api/projects/status/github/mitchellh/packer?branch=master&svg=true
+[travis-badge]: https://travis-ci.org/wtsi-hgi/packer.svg?branch=master
+[travis]: https://travis-ci.org/wtsi-hgi/packer
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/github/wtsi-hgi/packer?branch=master&svg=true
 [appveyor]: https://ci.appveyor.com/project/hashicorp/packer
-[godoc-badge]: https://godoc.org/github.com/mitchellh/packer?status.svg
-[godoc]: https://godoc.org/github.com/mitchellh/packer
-[report-badge]: https://goreportcard.com/badge/github.com/mitchellh/packer
-[report]: https://goreportcard.com/report/github.com/mitchellh/packer
+[godoc-badge]: https://godoc.org/github.com/wtsi-hgi/packer?status.svg
+[godoc]: https://godoc.org/github.com/wtsi-hgi/packer
+[report-badge]: https://goreportcard.com/badge/github.com/wtsi-hgi/packer
+[report]: https://goreportcard.com/report/github.com/wtsi-hgi/packer
 
 * Website: http://www.packer.io
 * IRC: `#packer-tool` on Freenode
@@ -44,7 +44,7 @@ The images that Packer creates can easily be turned into
 ## Quick Start
 Download and install packages and dependencies
 ```
-go get github.com/mitchellh/packer
+go get github.com/wtsi-hgi/packer
 ```
 
 **Note:** There is a great
@@ -102,4 +102,4 @@ http://www.packer.io/docs
 
 ## Developing Packer
 
-See [CONTRIBUTING.md](https://github.com/mitchellh/packer/blob/master/CONTRIBUTING.md) for best practices and instructions on setting up your development environment to work on Packer.
+See [CONTRIBUTING.md](https://github.com/wtsi-hgi/packer/blob/master/CONTRIBUTING.md) for best practices and instructions on setting up your development environment to work on Packer.

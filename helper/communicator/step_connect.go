@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/communicator/none"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/communicator/none"
+	"github.com/wtsi-hgi/packer/packer"
 	gossh "golang.org/x/crypto/ssh"
 )
 

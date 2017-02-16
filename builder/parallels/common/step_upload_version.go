@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepUploadVersion is a step that uploads a file containing the version of

@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/builder/azure/common/constants"
+	"github.com/wtsi-hgi/packer/builder/azure/common/constants"
 )
 
 func TestStepCreateResourceGroupShouldFailIfCreateFails(t *testing.T) {

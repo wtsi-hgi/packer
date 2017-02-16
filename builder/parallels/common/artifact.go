@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // BuilderId is the common builder ID to all of these artifacts.

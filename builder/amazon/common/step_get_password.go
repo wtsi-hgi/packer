@@ -12,8 +12,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepGetPassword reads the password from a Windows server and sets it

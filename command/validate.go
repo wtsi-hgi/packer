@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template"
 )
 
 type ValidateCommand struct {

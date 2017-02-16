@@ -3,7 +3,7 @@ package cloudstack
 import (
 	"testing"
 
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"github.com/xanzy/go-cloudstack/cloudstack"
 )
 

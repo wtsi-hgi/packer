@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/mitchellh/mapstructure"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 // DecodeOpts are the options for decoding configuration.

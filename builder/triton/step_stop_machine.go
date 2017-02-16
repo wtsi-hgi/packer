@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepStopMachine stops the machine with the given Machine ID, and waits

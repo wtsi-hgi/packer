@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/mitchellh/multistep"
-	vmwcommon "github.com/mitchellh/packer/builder/vmware/common"
+	vmwcommon "github.com/wtsi-hgi/packer/builder/vmware/common"
 )
 
 func TestESX5Driver_implDriver(t *testing.T) {

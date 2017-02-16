@@ -6,7 +6,7 @@ package arm
 import (
 	"fmt"
 
-	"github.com/mitchellh/packer/builder/azure/common"
+	"github.com/wtsi-hgi/packer/builder/azure/common"
 )
 
 const (

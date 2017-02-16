@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // This step creates the virtual disk that will be used as the

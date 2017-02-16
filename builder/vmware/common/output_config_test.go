@@ -3,7 +3,7 @@ package common
 import (
 	"testing"
 
-	"github.com/mitchellh/packer/common"
+	"github.com/wtsi-hgi/packer/common"
 )
 
 func TestOutputConfigPrepare(t *testing.T) {

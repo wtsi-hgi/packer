@@ -7,7 +7,7 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions"
 	"github.com/gophercloud/gophercloud/pagination"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepLoadExtensions gets the FlavorRef from a Flavor. It first assumes

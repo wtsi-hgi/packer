@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type FloppyConfig struct {

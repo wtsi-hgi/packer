@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepDeleteMachine deletes the machine with the ID specified in state["machine"]

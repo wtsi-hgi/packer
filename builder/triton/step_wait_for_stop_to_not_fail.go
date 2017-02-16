@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepWaitForStopNotToFail waits for 10 seconds before returning with continue

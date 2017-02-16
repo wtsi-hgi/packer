@@ -5,8 +5,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 // OutputConfig contains the configuration for builder's output.

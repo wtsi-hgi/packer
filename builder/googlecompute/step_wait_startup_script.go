@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type StepWaitStartupScript int

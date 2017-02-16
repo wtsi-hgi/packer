@@ -1,7 +1,7 @@
 package null
 
 import (
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"testing"
 )
 

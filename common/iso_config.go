@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 // ISOConfig contains configuration for downloading ISO images.

@@ -8,8 +8,8 @@ import (
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/packer"
 	"golang.org/x/crypto/ssh"
 )
 

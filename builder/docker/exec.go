@@ -3,7 +3,7 @@ package docker
 import (
 	"fmt"
 	"github.com/mitchellh/iochan"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"io"
 	"log"
 	"os/exec"

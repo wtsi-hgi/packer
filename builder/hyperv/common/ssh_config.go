@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type SSHConfig struct {

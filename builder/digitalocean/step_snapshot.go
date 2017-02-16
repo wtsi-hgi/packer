@@ -8,7 +8,7 @@ import (
 
 	"github.com/digitalocean/godo"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type stepSnapshot struct{}

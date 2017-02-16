@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 func TestStepUploadVersion_impl(t *testing.T) {

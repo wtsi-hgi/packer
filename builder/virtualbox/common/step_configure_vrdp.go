@@ -7,7 +7,7 @@ import (
 	"net"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // This step configures the VM to enable the VRDP server

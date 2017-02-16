@@ -52,10 +52,10 @@ the following two packages, you're encouraged to use whatever packages you want.
 Because plugins are their own processes, there is no danger of colliding
 dependencies.
 
--   `github.com/mitchellh/packer` - Contains all the interfaces that you have to
+-   `github.com/wtsi-hgi/packer` - Contains all the interfaces that you have to
     implement for any given plugin.
 
--   `github.com/mitchellh/packer/packer/plugin` - Contains the code to serve
+-   `github.com/wtsi-hgi/packer/packer/plugin` - Contains the code to serve
     the plugin. This handles all the inter-process communication stuff.
 
 There are two steps involved in creating a plugin:
@@ -71,7 +71,7 @@ implements the `packer.Builder` interface:
 
 ``` {.go}
 import (
-  "github.com/mitchellh/packer/packer/plugin"
+  "github.com/wtsi-hgi/packer/packer/plugin"
 )
 
 // Assume this implements packer.Builder

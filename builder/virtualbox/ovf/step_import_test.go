@@ -2,7 +2,7 @@ package ovf
 
 import (
 	"github.com/mitchellh/multistep"
-	vboxcommon "github.com/mitchellh/packer/builder/virtualbox/common"
+	vboxcommon "github.com/wtsi-hgi/packer/builder/virtualbox/common"
 	"testing"
 )
 

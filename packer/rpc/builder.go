@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"log"
 	"net/rpc"
 )

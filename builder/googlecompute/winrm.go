@@ -2,7 +2,7 @@ package googlecompute
 
 import (
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/helper/communicator"
 )
 
 // winrmConfig returns the WinRM configuration.

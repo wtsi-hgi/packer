@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type toolsUploadPathTemplate struct {

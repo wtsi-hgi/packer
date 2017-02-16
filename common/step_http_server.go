@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // This step creates and runs the HTTP server that is serving files from the

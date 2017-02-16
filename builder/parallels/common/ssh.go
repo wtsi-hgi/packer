@@ -2,8 +2,8 @@ package common
 
 import (
 	"github.com/mitchellh/multistep"
-	commonssh "github.com/mitchellh/packer/common/ssh"
-	packerssh "github.com/mitchellh/packer/communicator/ssh"
+	commonssh "github.com/wtsi-hgi/packer/common/ssh"
+	packerssh "github.com/wtsi-hgi/packer/communicator/ssh"
 	"golang.org/x/crypto/ssh"
 )
 

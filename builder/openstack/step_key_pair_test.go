@@ -2,7 +2,7 @@ package openstack
 
 import (
 	"bytes"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"golang.org/x/crypto/ssh"
 	"os/exec"
 	"testing"

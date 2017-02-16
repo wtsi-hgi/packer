@@ -5,8 +5,8 @@ import (
 	"os/signal"
 
 	"github.com/mitchellh/cli"
-	"github.com/mitchellh/packer/command"
-	"github.com/mitchellh/packer/version"
+	"github.com/wtsi-hgi/packer/command"
+	"github.com/wtsi-hgi/packer/version"
 )
 
 // Commands is the mapping of all the available Packer commands.

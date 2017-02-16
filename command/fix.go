@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mitchellh/packer/fix"
-	"github.com/mitchellh/packer/template"
+	"github.com/wtsi-hgi/packer/fix"
+	"github.com/wtsi-hgi/packer/template"
 )
 
 type FixCommand struct {

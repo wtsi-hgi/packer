@@ -24,7 +24,7 @@ on [installing Packer](/intro/getting-started/setup.html).
 -&gt; **Note:** We're always looking to officially support more target
 platforms. If you're interested in adding support for another platform, please
 help by opening an issue or pull request within
-[GitHub](https://github.com/mitchellh/packer) so we can discuss how to make it
+[GitHub](https://github.com/wtsi-hgi/packer) so we can discuss how to make it
 happen.
 
 Packer supports creating images for the following platforms or targets. The

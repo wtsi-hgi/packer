@@ -1,7 +1,7 @@
 package instance
 
 import (
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"io/ioutil"
 	"os"
 	"testing"

@@ -6,7 +6,7 @@ package lin
 import (
 	"fmt"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/builder/azure/common/constants"
+	"github.com/wtsi-hgi/packer/builder/azure/common/constants"
 	"golang.org/x/crypto/ssh"
 )
 

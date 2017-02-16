@@ -8,9 +8,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/mitchellh/packer/builder/amazon/common"
-	builderT "github.com/mitchellh/packer/helper/builder/testing"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/builder/amazon/common"
+	builderT "github.com/wtsi-hgi/packer/helper/builder/testing"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 func TestBuilderAcc_basic(t *testing.T) {

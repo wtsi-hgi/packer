@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mitchellh/packer/helper/enumflag"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template"
+	"github.com/wtsi-hgi/packer/helper/enumflag"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template"
 )
 
 type BuildCommand struct {

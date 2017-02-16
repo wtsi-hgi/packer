@@ -17,7 +17,7 @@ dedicated users willing to help through various mediums.
 Group](https://groups.google.com/group/packer-tool)
 
 **Bug Tracker:** [Issue tracker on
-GitHub](https://github.com/mitchellh/packer/issues). Please only use this for
+GitHub](https://github.com/wtsi-hgi/packer/issues). Please only use this for
 reporting bugs. Do not ask for general help here. Use IRC or the mailing list
 for that.
 

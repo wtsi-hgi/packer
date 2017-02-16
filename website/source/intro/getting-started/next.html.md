@@ -25,5 +25,5 @@ overview](https://atlas.hashicorp.com/help/intro/getting-started).
 
 As you use Packer more, please voice your comments and concerns on the [mailing
 list or IRC](/community). Additionally, Packer is [open
-source](https://github.com/mitchellh/packer) so please contribute if you'd like
+source](https://github.com/wtsi-hgi/packer) so please contribute if you'd like
 to. Contributions are very welcome.

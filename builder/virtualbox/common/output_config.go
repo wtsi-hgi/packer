@@ -3,8 +3,8 @@ package common
 import (
 	"fmt"
 
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type OutputConfig struct {

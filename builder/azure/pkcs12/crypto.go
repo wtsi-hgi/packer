@@ -12,7 +12,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/mitchellh/packer/builder/azure/pkcs12/rc2"
+	"github.com/wtsi-hgi/packer/builder/azure/pkcs12/rc2"
 )
 
 const (

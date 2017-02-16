@@ -215,7 +215,7 @@ post-processors that are treated as as single pipeline, see
     [
       {
         "type": "docker-import",
-        "repository": "mitchellh/packer",
+        "repository": "wtsi-hgi/packer",
         "tag": "0.7"
       },
       "docker-push"
@@ -254,7 +254,7 @@ which tags and pushes an image. This is accomplished using a sequence definition
     [
       {
         "type": "docker-tag",
-        "repository": "mitchellh/packer",
+        "repository": "wtsi-hgi/packer",
         "tag": "0.7"
       },
       "docker-push"
@@ -279,7 +279,7 @@ nearly-identical sequence definitions, as demonstrated by the example below:
     [
       {
         "type": "docker-tag",
-        "repository": "mitchellh/packer",
+        "repository": "wtsi-hgi/packer",
         "tag": "0.7"
       },
       "docker-push"

@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/masterzen/winrm"
-	"github.com/mitchellh/packer/packer"
 	"github.com/packer-community/winrmcp/winrmcp"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // Communicator represents the WinRM communicator

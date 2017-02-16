@@ -3,13 +3,13 @@ package dockerpush
 import (
 	"fmt"
 
-	"github.com/mitchellh/packer/builder/docker"
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/helper/config"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/post-processor/docker-import"
-	"github.com/mitchellh/packer/post-processor/docker-tag"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/builder/docker"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/helper/config"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/post-processor/docker-import"
+	"github.com/wtsi-hgi/packer/post-processor/docker-tag"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type Config struct {

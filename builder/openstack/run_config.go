@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 // RunConfig contains configuration for running an instance from a source

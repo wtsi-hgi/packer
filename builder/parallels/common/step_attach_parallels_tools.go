@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // StepAttachParallelsTools is a step that attaches Parallels Tools ISO image

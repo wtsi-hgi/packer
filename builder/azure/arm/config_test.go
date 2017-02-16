@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mitchellh/packer/builder/azure/common/constants"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/builder/azure/common/constants"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // List of configuration parameters that are required by the ARM builder.

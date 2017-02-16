@@ -12,8 +12,8 @@ import (
 
 	"github.com/digitalocean/godo"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/common/uuid"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/common/uuid"
+	"github.com/wtsi-hgi/packer/packer"
 	"golang.org/x/crypto/ssh"
 )
 

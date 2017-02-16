@@ -2,7 +2,7 @@ package common
 
 import (
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"testing"
 	"time"
 )

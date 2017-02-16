@@ -9,9 +9,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/mitchellh/multistep"
-	retry "github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template/interpolate"
+	retry "github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type StepCreateTags struct {

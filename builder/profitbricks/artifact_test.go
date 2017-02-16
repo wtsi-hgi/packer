@@ -3,7 +3,7 @@ package profitbricks
 import (
 	"testing"
 
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 func TestArtifact_Impl(t *testing.T) {

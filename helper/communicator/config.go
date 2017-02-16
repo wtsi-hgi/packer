@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/masterzen/winrm"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 // Config is the common configuration that communicators allow within

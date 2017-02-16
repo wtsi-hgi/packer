@@ -10,17 +10,17 @@ import (
 	"strings"
 	"time"
 
-	packerAzureCommon "github.com/mitchellh/packer/builder/azure/common"
+	packerAzureCommon "github.com/wtsi-hgi/packer/builder/azure/common"
 
 	"github.com/Azure/go-autorest/autorest/azure"
 
-	"github.com/mitchellh/packer/builder/azure/common/constants"
-	"github.com/mitchellh/packer/builder/azure/common/lin"
+	"github.com/wtsi-hgi/packer/builder/azure/common/constants"
+	"github.com/wtsi-hgi/packer/builder/azure/common/lin"
 
 	"github.com/mitchellh/multistep"
-	packerCommon "github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/packer"
+	packerCommon "github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type Builder struct {

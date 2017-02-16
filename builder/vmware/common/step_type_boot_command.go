@@ -13,9 +13,9 @@ import (
 
 	"github.com/mitchellh/go-vnc"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 const KeyLeftShift uint32 = 0xFFE1

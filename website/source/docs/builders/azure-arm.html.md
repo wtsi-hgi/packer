@@ -218,5 +218,5 @@ minimal, so overall impact is small.
  > The KeyVault certificate is protected using the object_id of the SPN.  This is why Windows builds require object_id,
  and an SPN.  The KeyVault is deleted when the resource group is deleted.
 
-See the [examples/azure](https://github.com/mitchellh/packer/tree/master/examples/azure) folder in the packer project
+See the [examples/azure](https://github.com/wtsi-hgi/packer/tree/master/examples/azure) folder in the packer project
 for more examples.

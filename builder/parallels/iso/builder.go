@@ -6,12 +6,12 @@ import (
 	"log"
 
 	"github.com/mitchellh/multistep"
-	parallelscommon "github.com/mitchellh/packer/builder/parallels/common"
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/helper/config"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template/interpolate"
+	parallelscommon "github.com/wtsi-hgi/packer/builder/parallels/common"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/helper/config"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 const BuilderId = "rickard-von-essen.parallels"

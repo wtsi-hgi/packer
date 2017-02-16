@@ -3,7 +3,7 @@ package triton
 import (
 	"fmt"
 
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 // TargetImageConfig represents the configuration for the image to be created

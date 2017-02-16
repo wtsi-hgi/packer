@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/common/uuid"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/common/uuid"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // This step creates switch for VM.

@@ -3,8 +3,8 @@ package iso
 import (
 	"fmt"
 	"github.com/mitchellh/multistep"
-	vboxcommon "github.com/mitchellh/packer/builder/virtualbox/common"
-	"github.com/mitchellh/packer/packer"
+	vboxcommon "github.com/wtsi-hgi/packer/builder/virtualbox/common"
+	"github.com/wtsi-hgi/packer/packer"
 	"path/filepath"
 	"strconv"
 	"strings"

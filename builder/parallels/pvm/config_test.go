@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 func testConfig(t *testing.T) map[string]interface{} {

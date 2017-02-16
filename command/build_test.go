@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mitchellh/packer/builder/file"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/builder/file"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 func TestBuildOnlyFileCommaFlags(t *testing.T) {

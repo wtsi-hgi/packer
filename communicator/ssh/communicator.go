@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mitchellh/packer/packer"
 	"github.com/pkg/sftp"
+	"github.com/wtsi-hgi/packer/packer"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
 )

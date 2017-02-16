@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mitchellh/packer/builder/virtualbox/common"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/builder/virtualbox/common"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 func testConfig() map[string]interface{} {

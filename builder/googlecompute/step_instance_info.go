@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // stepInstanceInfo represents a Packer build step that gathers GCE instance info.

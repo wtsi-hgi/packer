@@ -3,7 +3,7 @@ package profitbricks
 import (
 	"fmt"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/communicator/ssh"
+	"github.com/wtsi-hgi/packer/communicator/ssh"
 	gossh "golang.org/x/crypto/ssh"
 )
 

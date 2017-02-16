@@ -5,8 +5,8 @@ package arm
 
 import (
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/builder/azure/common/constants"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/builder/azure/common/constants"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type StepSetCertificate struct {

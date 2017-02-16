@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/joyent/gosdc/cloudapi"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type driverTriton struct {

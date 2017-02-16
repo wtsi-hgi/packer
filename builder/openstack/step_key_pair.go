@@ -10,8 +10,8 @@ import (
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/keypairs"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/common/uuid"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/common/uuid"
+	"github.com/wtsi-hgi/packer/packer"
 	"golang.org/x/crypto/ssh"
 )
 
@@ -110,7 +110,7 @@ func (s *StepKeyPair) Run(state multistep.StateBag) multistep.StepAction {
 	return multistep.ActionContinue
 }
 
-// Work around for https://github.com/mitchellh/packer/issues/2526
+// Work around for https://github.com/wtsi-hgi/packer/issues/2526
 func berToDer(ber string, ui packer.Ui) string {
 	// Check if x/crypto/ssh can parse the key
 	_, err := ssh.ParsePrivateKey([]byte(ber))

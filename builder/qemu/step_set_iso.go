@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // This step set iso_patch to available url

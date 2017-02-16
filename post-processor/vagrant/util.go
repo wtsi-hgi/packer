@@ -12,7 +12,7 @@ import (
 	"runtime"
 
 	"github.com/klauspost/pgzip"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mitchellh/packer/builder/file"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template"
+	"github.com/wtsi-hgi/packer/builder/file"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template"
 )
 
 func TestDetectFilename(t *testing.T) {

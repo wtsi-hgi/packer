@@ -10,7 +10,7 @@ package plugin
 import (
 	"errors"
 	"fmt"
-	packrpc "github.com/mitchellh/packer/packer/rpc"
+	packrpc "github.com/wtsi-hgi/packer/packer/rpc"
 	"io/ioutil"
 	"log"
 	"math/rand"

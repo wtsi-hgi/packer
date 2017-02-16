@@ -6,8 +6,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/arm/compute"
 	"github.com/Azure/azure-sdk-for-go/arm/resources/resources"
 
-	"github.com/mitchellh/packer/builder/azure/common/constants"
-	"github.com/mitchellh/packer/builder/azure/common/template"
+	"github.com/wtsi-hgi/packer/builder/azure/common/constants"
+	"github.com/wtsi-hgi/packer/builder/azure/common/template"
 )
 
 type templateFactoryFunc func(*Config) (*resources.Deployment, error)

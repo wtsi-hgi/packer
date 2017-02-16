@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/mitchellh/multistep"
-	commonssh "github.com/mitchellh/packer/common/ssh"
-	"github.com/mitchellh/packer/communicator/ssh"
-	"github.com/mitchellh/packer/packer"
+	commonssh "github.com/wtsi-hgi/packer/common/ssh"
+	"github.com/wtsi-hgi/packer/communicator/ssh"
+	"github.com/wtsi-hgi/packer/packer"
 	gossh "golang.org/x/crypto/ssh"
 )
 

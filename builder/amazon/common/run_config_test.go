@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/mitchellh/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/helper/communicator"
 )
 
 func init() {

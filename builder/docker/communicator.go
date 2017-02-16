@@ -14,7 +14,7 @@ import (
 	"syscall"
 
 	"github.com/hashicorp/go-version"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 type Communicator struct {

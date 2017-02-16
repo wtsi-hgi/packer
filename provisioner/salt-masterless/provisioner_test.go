@@ -1,7 +1,7 @@
 package saltmasterless
 
 import (
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"io/ioutil"
 	"os"
 	"strings"

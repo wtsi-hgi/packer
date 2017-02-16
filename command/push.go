@@ -11,8 +11,8 @@ import (
 
 	"github.com/hashicorp/atlas-go/archive"
 	"github.com/hashicorp/atlas-go/v1"
-	"github.com/mitchellh/packer/helper/flag-kv"
-	"github.com/mitchellh/packer/template"
+	"github.com/wtsi-hgi/packer/helper/flag-kv"
+	"github.com/wtsi-hgi/packer/template"
 )
 
 // archiveTemplateEntry is the name the template always takes within the slug.

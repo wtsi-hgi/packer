@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/provisioner/file"
-	"github.com/mitchellh/packer/provisioner/shell"
-	"github.com/mitchellh/packer/template"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/provisioner/file"
+	"github.com/wtsi-hgi/packer/provisioner/shell"
+	"github.com/wtsi-hgi/packer/template"
 )
 
 func TestCommunicator_impl(t *testing.T) {

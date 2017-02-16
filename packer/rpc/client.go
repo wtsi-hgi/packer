@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/rpc"
 
-	"github.com/mitchellh/packer/packer"
 	"github.com/ugorji/go/codec"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // Client is the client end that communicates with a Packer RPC server.

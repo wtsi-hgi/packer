@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 
 	"golang.org/x/crypto/ssh"
 )

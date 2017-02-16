@@ -2,7 +2,7 @@ package none
 
 import (
 	"errors"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"io"
 	"os"
 )

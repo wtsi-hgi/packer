@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/mitchellh/packer/common/uuid"
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/template/interpolate"
+	"github.com/wtsi-hgi/packer/common/uuid"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 var reShutdownBehavior = regexp.MustCompile("^(stop|terminate)$")

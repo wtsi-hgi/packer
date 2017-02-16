@@ -17,12 +17,12 @@ import (
 
 	"github.com/hashicorp/go-uuid"
 	"github.com/mitchellh/cli"
-	"github.com/mitchellh/packer/command"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/packer/plugin"
-	"github.com/mitchellh/packer/version"
 	"github.com/mitchellh/panicwrap"
 	"github.com/mitchellh/prefixedio"
+	"github.com/wtsi-hgi/packer/command"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/packer/plugin"
+	"github.com/wtsi-hgi/packer/version"
 )
 
 func main() {

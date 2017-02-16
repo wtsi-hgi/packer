@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/mitchellh/multistep"
-	parallelscommon "github.com/mitchellh/packer/builder/parallels/common"
-	"github.com/mitchellh/packer/packer"
+	parallelscommon "github.com/wtsi-hgi/packer/builder/parallels/common"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // This step creates the virtual disk that will be used as the

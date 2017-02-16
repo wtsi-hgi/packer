@@ -6,10 +6,10 @@ import (
 	"log"
 
 	"github.com/mitchellh/multistep"
-	vboxcommon "github.com/mitchellh/packer/builder/virtualbox/common"
-	"github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/helper/communicator"
-	"github.com/mitchellh/packer/packer"
+	vboxcommon "github.com/wtsi-hgi/packer/builder/virtualbox/common"
+	"github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/helper/communicator"
+	"github.com/wtsi-hgi/packer/packer"
 )
 
 // Builder implements packer.Builder and builds the actual VirtualBox

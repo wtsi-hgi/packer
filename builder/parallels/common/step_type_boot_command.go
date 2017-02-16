@@ -9,9 +9,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/mitchellh/multistep"
-	packer_common "github.com/mitchellh/packer/common"
-	"github.com/mitchellh/packer/packer"
-	"github.com/mitchellh/packer/template/interpolate"
+	packer_common "github.com/wtsi-hgi/packer/common"
+	"github.com/wtsi-hgi/packer/packer"
+	"github.com/wtsi-hgi/packer/template/interpolate"
 )
 
 type bootCommandTemplateData struct {

@@ -2,7 +2,7 @@ package plugin
 
 import (
 	"fmt"
-	"github.com/mitchellh/packer/packer"
+	"github.com/wtsi-hgi/packer/packer"
 	"log"
 	"os"
 	"os/exec"
